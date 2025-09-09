@@ -1,3 +1,5 @@
+//Soal 1: Buat program untuk menyimpan 7 data integer dalam array. GANJIL: Isi dengan kelipatan 3!
+
 #include <iostream>
 using namespace std;
 
