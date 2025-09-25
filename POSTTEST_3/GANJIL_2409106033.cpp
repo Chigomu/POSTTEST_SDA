@@ -41,7 +41,7 @@ void tambahItem(string namaItem, string tipe) {
     cout << "Item \"" << namaItem << "\" berhasil ditambahkan.\n";
 }
 
-// Sisipkan item pada posisi tertentu (personalisasi)
+// Penyisipan item sesuai NIM
 void sisipItem(string namaItem, string tipe) {
     Item* newNode = createItem(namaItem, tipe);
     if (head == nullptr) {
@@ -64,7 +64,6 @@ void sisipItem(string namaItem, string tipe) {
     }
 
     if (temp == nullptr || temp->next == nullptr) {
-        // sisip di akhir
         tail->next = newNode;
         newNode->prev = tail;
         tail = newNode;
