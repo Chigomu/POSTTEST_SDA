@@ -48,7 +48,7 @@ bool areBracketsBalanced(string expr) {
     // Di akhir, stack harus kosong agar seimbang.
     return stackTop == nullptr;
 }
-
+ 
 int main() {
     string expr1 = "{[()]}";
     cout << expr1 << " -> " << (areBracketsBalanced(expr1) ? "Seimbang" : "Tidak Seimbang") << endl;

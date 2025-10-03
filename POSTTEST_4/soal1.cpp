@@ -39,7 +39,7 @@ string reverseString(string s) {
 
     return reversed;
 }
-
+ 
 int main() {
     string text = "Struktur Data";
     cout << "Teks asli: " << text << endl;

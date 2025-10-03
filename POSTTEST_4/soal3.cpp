@@ -21,7 +21,7 @@ void enqueue(Node*& front, Node*& rear, string document) {
         rear = newNode;
     }
 }
-
+ 
 // Dequeue: Menegeluarkan dan Menghapus data paling duluan yang dimasukkan ke dalam queue
 string dequeue(Node*& front, Node*& rear) {
     if (front == nullptr) return "Error: Antrian kosong";

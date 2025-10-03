@@ -29,7 +29,7 @@ void sortedInsert(Node *&head_ref, int data) {
         head_ref = newNode; // Update head_ref menjadi node baru.
         return;
     }
-
+ 
     //Kasus 3: Cari posisi di tengah atau akhir.
     Node* current = head_ref;
     while (current->next != head_ref && current->next->data < data) {

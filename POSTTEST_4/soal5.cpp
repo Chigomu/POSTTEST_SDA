@@ -75,7 +75,7 @@ int main() {
 
     cout << "List sebelum exchange: ";
     printList(head);
-
+ 
     exchangeHeadAndTail(head);
 
     cout << "List setelah exchange head dan tail: ";
